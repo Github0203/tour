@@ -36,3 +36,642 @@
     transform: rotate(360deg);
   }
 }
+a {
+  text-decoration: none;
+  font-weight: normal;
+}
+ul,
+li {
+  list-style: none;
+  padding: 0;
+}
+.container {
+  width: 1150px;
+  margin: auto;
+}
+.min-h-screen {
+  min-width: 900px;
+  margin: auto;
+  width: 1366px;
+  overflow: hidden;
+}
+.thoigian {
+  float: left;
+}
+.thoigian h3 {
+  float: left;
+  margin: auto;
+  font-size: 15px;
+  padding: 4px 0;
+  color: #efa300;
+}
+.thoigian span {
+  background: url("https://bocatvangtravel.com.vn/images/topicon_thoigian.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-y: 3px;
+  padding-left: 1.3em;
+  float: left;
+  margin: 3px 5px 0 0;
+}
+.ngonngu {
+  float: right;
+  padding-top: 7px;
+}
+.ngonngu a {
+  padding: 0 2px;
+}
+.ngonngu img {
+  width: 20px;
+  height: 20px;
+}
+.topheader {
+  display: inline-block;
+  padding: 0.2em 0;
+  width: 100%;
+  border-bottom: 1px solid #8ddfff;
+  height: 34px;
+  z-index: 999;
+  background-color: #f0f0f0;
+}
+.content {
+  width: 100%;
+}
+.logo {
+}
+.logo img {
+  width: 230px;
+  float: left;
+}
+.lienhetopheader {
+  float: right;
+  padding: 2rem 0;
+}
+.lienhetopheader h3 {
+  font-size: 16px;
+  color: #ec0206;
+  font-weight: normal;
+  float: left;
+  margin: auto;
+}
+.lienhetopheader span {
+  float: left;
+}
+.lienhetopheader a {
+  color: #027cc4;
+  font-weight: bold;
+  padding: 0 5px;
+}
+.topheadertrenmenu {
+  background: url(https://bocatvangtravel.com.vn/images/topbg_head.png);
+  height: 100px;
+  background-position: right;
+  background-repeat: no-repeat;
+  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff,
+    1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+.side-navigation-panel ul {
+  width: auto;
+  float: left;
+  margin-right: 5px;
+}
+
+.side-navigation-panel
+  .side-navigation-panel-select
+  .side-navigation-panel-select-wrap
+  .side-navigation-panel-select-option {
+  border-left-width: 0;
+  border-bottom-width: 2px;
+  border-color: #0000;
+}
+.side-navigation-panel ul:nth-child(1) {
+  background: #efa300;
+}
+.side-navigation-panel ul:nth-child(1):hover {
+  background: #efa300 !important;
+}
+.side-navigation-panel
+  .side-navigation-panel-select
+  .side-navigation-panel-select-inner
+  .side-navigation-panel-select-inner-wrap
+  .side-navigation-panel-select-inner-option {
+  padding: 10px 20px;
+}
+ul.side-navigation-panel-select-inner {
+  width: 100%;
+  background: #b3b3b3;
+}
+.cmVPkx .contents {
+}
+.cmVPkx .contents img {
+  width: 100%;
+}
+.optiontimkiem {
+  width: 40%;
+  padding: 0 5%;
+  float: left;
+}
+.showtimkiem {
+  position: absolute;
+  background: #000000bf;
+  top: 9%;
+  left: 4%;
+  z-index: 10;
+  width: 35%;
+  padding: 2%;
+  color: #fff;
+}
+.contents {
+  position: relative;
+}
+.slide_show-wrap {
+  position: relative;
+}
+.menu_bcv {
+  display: inline-block;
+  float: right;
+  margin: auto;
+  height: 48px;
+  z-index: 11;
+  position: relative;
+  width: 100%;
+  background-color: #007cc4;
+  z-index: 100;
+}
+.showtimkiem h3 {
+  border-bottom: 1px dashed #5a5a5a;
+  padding: 10px;
+  margin: auto;
+}
+
+.optiontimkiem select,
+.optiontimkiem input,
+.optiontimkiem button {
+  padding: 5%;
+  border-radius: 5px;
+  width: 100%;
+}
+.optiontimkiem:last-child p {
+  opacity: 0;
+}
+.optiontimkiem .buttontimkiemtour {
+  background: url(https://bocatvangtravel.com.vn/images/icon_tim.png) #ffc800;
+  background-repeat: no-repeat;
+  background-position-x: 23%;
+  background-position-y: 47%;
+}
+.optiontimkiem input {
+  padding-right: 0;
+  width: 95%;
+}
+.dxifeT .contents img {
+  width: 100%;
+}
+.slideshow {
+  display: inline-block;
+  width: 100%;
+}
+.side-navigation-panel ul * {
+  color: #fff;
+}
+.side-navigation-panel
+  .side-navigation-panel-select
+  .side-navigation-panel-select-wrap
+  .side-navigation-panel-select-option-selected {
+  /* background: #efa300; */
+  background: none;
+}
+.side-navigation-panel
+  .side-navigation-panel-select
+  .side-navigation-panel-select-wrap
+  .side-navigation-panel-select-option:hover {
+  background: #efa300;
+}
+.side-navigation-panel
+  ul
+  .side-navigation-panel-select-inner-option-wrap:hover
+  span {
+  color: #000 !important;
+}
+.side-navigation-panel
+  ul
+  .side-navigation-panel-select-inner-option-wrap:hover
+  .icon-wrapper
+  svg
+  path {
+  color: #000 !important;
+}
+.dstourhome {
+  margin: 2% 0;
+}
+.dstourhome h2 {
+  margin: auto;
+  font-size: 30px;
+  color: #007cc4;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+}
+.dstourhome h3 {
+  margin: auto;
+  font-size: 20px;
+  color: #1c1010;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  background: url("https://bocatvangtravel.com.vn/images/bg_tith3.jpg");
+  background-repeat: no-repeat;
+  background-size: 70% 1px;
+  background-position: center;
+}
+.dstourhome h3 span.ttl {
+  background: #fff;
+  padding: 0 15px;
+  font-size: 20px;
+  font-weight: 300;
+}
+.dstourhome h2 span {
+  position: relative;
+}
+.dstourhome h2 span::before {
+  content: "";
+  content: url("https://bocatvangtravel.com.vn/images/icon_logo.png");
+  position: absolute;
+  z-index: 99;
+  left: -17px;
+  top: -11px;
+}
+.dstourhome span {
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.itemtour {
+  width: 96%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  left: 2%;
+}
+.itemtour1 {
+}
+.itemtour:hover .itemtour2 {
+  transform: translateY(0);
+}
+.itemtour_top {
+  position: relative;
+}
+.itemtour_top ._1 {
+  width: 100%;
+}
+.itemtour_top ._2 {
+  position: absolute;
+  right: 2%;
+  top: 2%;
+  width: 70px;
+}
+.itemtour_top img {
+}
+.itemtour_button {
+  padding: 5px;
+  background: #c7c7c77d;
+}
+.itemtour_button * {
+  padding: 5px 0;
+}
+.itemtour_button p.thoi-gian {
+  padding: 0;
+  background: url(https://bocatvangtravel.com.vn/images/topicon_thoigian.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-y: 3px;
+  padding-left: 1.3em;
+  float: left;
+  margin: auto;
+  margin-right: 5px;
+}
+.phuong-tien {
+  padding: 0;
+  background: url(https://bocatvangtravel.com.vn/images/topicon_thoigian.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-y: 3px;
+  padding-left: 1.3em;
+  float: left;
+}
+.itemtour_button h3 {
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+}
+.itemtour2 {
+  position: absolute;
+  top: 0;
+  padding: 2%;
+  background: #000000bf;
+  width: 96%;
+  height: 100%;
+  color: #fff;
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  transition: 0.5s;
+}
+.dattouritem {
+  width: 100%;
+  display: inline-block;
+}
+.dattouritem p {
+  float: left;
+  margin: auto;
+}
+.dattouritem p span {
+  color: #efa300;
+  font-weight: 500;
+}
+.dattouritem a,
+.btn_dattouritem {
+  float: right;
+  padding: 10px;
+  background: #efa300;
+  border-radius: 5px;
+  color: #fff;
+}
+.btn_xemchitiet {
+  float: left;
+  padding: 10px;
+  background: #007cc4;
+  border-radius: 5px;
+  color: #fff;
+}
+.itemtour2_h3 {
+  margin: auto;
+  font-size: 20px;
+}
+.itemtour2 .gia {
+  color: #efa300;
+  font-weight: bold;
+  background: url("https://bocatvangtravel.com.vn/images/icon_gia.png");
+  background-repeat: no-repeat;
+  background-position-y: 9px;
+  padding-left: 13px;
+}
+span.giacu {
+  font-size: 15px;
+  text-decoration: line-through;
+  font-style: italic;
+  color: #fff;
+  font-weight: 300;
+}
+span.giamoi {
+  font-size: 20px;
+  color: #f00;
+  margin-right: 5px;
+}
+.slick-prev {
+  left: 30px !important;
+  z-index: 10;
+}
+.slick-next {
+  right: 40px !important;
+  z-index: 10;
+}
+.show_slide_tour {
+  display: inline-block;
+}
+.slick-prev:before,
+.slick-next:before {
+  font-size: 35px;
+}
+.quangcao {
+  display: inline-block;
+  margin: 2% 0;
+}
+.quangcaoleft {
+  float: left;
+  width: 49%;
+}
+.quangcaoleft img {
+  width: 100%;
+}
+.quangcaoright img {
+  width: 100%;
+}
+.quangcaoright {
+  float: right;
+  width: 49%;
+}
+.listmuine {
+}
+.listmuine ul {
+  display: inline-block;
+  margin: 5px 0;
+}
+.listmuine li {
+  width: 32%;
+  float: left;
+}
+.itemtintuc {
+  height: 100%;
+}
+.tintuchome img {
+  width: 40%;
+  float: left;
+}
+.tintuchome ul {
+  display: flex;
+}
+.tintuchome li {
+  width: 100%;
+  float: left;
+}
+.tintuchome li ul {
+  width: 100%;
+  display: block;
+}
+.tintuchome li ul li {
+  width: 96%;
+    margin-bottom: 10px;
+    height: 194px;
+    padding: 0 2%;
+}
+.ctn_tt {
+  float: left;
+    width: 57%;
+    height: 87%;
+    background: #fff;
+    padding: 2% 2% 1.3% 1%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.ctn_tt h3 {
+  font-family: mulir;
+  font-size: 18px;
+  color: #007cc4;
+  margin: auto;
+}
+.ctn_tt p {
+  color: black;
+  width: 100%;
+  float: left;
+  margin-top: 10px;
+  height: auto;
+  font-size: 16px;
+  overflow: hidden;
+  text-align: justify;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: #333;
+}
+.tieude_tintuc {
+  background: url(https://bocatvangtravel.com.vn/images/tgc.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2% 2%;
+}
+.tieude_tintuc .dstourhome h2{color: #fff;}
+.itemanh_home{padding: 0 2%;}
+.itemanh_home h3{font-size: 17px;font-weight: 300;
+  color: #007cc4;
+  float: left;
+  width: 96%;
+  max-height: 38px;
+  overflow: hidden;
+  padding: 2%;
+  background: #85858547;
+  margin: auto;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;}
+.itemanh_home img{width: 100%;border-top-left-radius: 5px;
+  border-top-right-radius: 5px;}
+  .tuvanhome{    padding: 2% 0%;
+    background: #007cc4;
+    width: 100%;
+    height: 100px;color: #fff;}
+  .tuvanlefthome{width: 50%;;}
+  .tuvanlefthome p{float: left;margin: 7px; margin-right: 5px;}
+  .nhapemail{float: left;width: 50%;}
+  .nhapemail input{    float: left;
+    border: none;
+    padding: 4% 6%;
+    border-radius: 5px;border-top-right-radius: 0;border-bottom-right-radius: 0;}
+  .nhapemail a{    float: left;
+    width: 47px;
+    height: 38px;
+    background: url(https://bocatvangtravel.com.vn/images/icon_guimail.png);
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    overflow: hidden;border-top-left-radius: 0;border-bottom-left-radius: 0;}
+.tuvanhomeflex{display: inline;}
+.tuvanrightthome{    float: right;
+  background-image: url(https://bocatvangtravel.com.vn/images/footer_iconcall.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 32px;
+  position: relative;
+  width: 30%;}
+.tuvanrightthome p{margin: auto;float: left;margin-right: 5px;    padding: 7px;padding-right: 0px;}
+.tuvanrightthome a{float: left;font-size: 22px;
+  font-weight: bold;
+  color: #efa300;padding: 3px;}
+  .menufooter{display: flex;    background-color: #f6f6f6;
+    padding: 40px 0;}
+  .tourtrongnuoc, .tourngoainuoc{float: left;
+    font-size: 16px;
+    color: #007cc4;
+    font-weight: bold;
+    text-transform: uppercase;}
+  .tourtrongnuoc h3, .tourngoainuoc h3{}
+  .tourtrongnuoc ul, .tourngoainuoc ul{}
+  .tourtrongnuoc li, .tourngoainuoc li{}
+  .tourtrongnuoc li a, .tourngoainuoc ul li a{font-size: 13px;
+    font-weight: bold;
+    color: #2c2c2c;
+    border: 1px solid #969696;
+    width: auto;
+    float: left;
+    padding: 3px 5%;
+    border-radius: 4px;}
+    .li_footer{width: 90%;
+      float: left;
+      color: #5b5b5b;
+      font-size: 13px;
+      background-image: url(https://bocatvangtravel.com.vn/images/ft_menuli.png);
+      background-repeat: no-repeat;
+      background-position: left 10px;
+      padding: 5px 5%;
+      margin-left: 0;
+      transition: 0.5s;}
+     .menufooter .ul_ngoai1{}
+      .menufooter .ul_ngoai2{}
+      .menufooter .ul_ngoai1 li, .menufooter .ul_ngoai2 li{float: left;transition: 0.5s;}
+      .menufooter .ul_ngoai1 li.li_footer:hover, .menufooter .ul_ngoai2 li.li_footer:hover{padding-left: 5.5%;}
+      .lienhefooter{padding: 1% 0;
+        background-color: #00a1dc;float: left;
+        width: 100%;padding-top: 2%;}
+      .lienhefooter h2{color: #fff;font-size: 21px;font-weight: 700;margin: auto  ;}
+      .lienhefooter ul{}
+      .lienhefooter li{padding: 3px;color: #fff;}
+      .lienhefooter1 li:nth-child(1), .lienhefooter1 li:nth-child(2), .lienhefooter1 li:nth-child(3){
+        background: url(https://bocatvangtravel.com.vn/Uploads/images/BaiViet/icon_map.png);
+        background-position: left;padding-left: 25px;background-repeat: no-repeat;background-position-y: 3px;
+      }
+      .lienhefooter1 li:nth-child(4), .lienhefooter1 li:nth-child(5){
+        background: url(https://bocatvangtravel.com.vn/Uploads/images/BaiViet/icon_call.png);
+        background-position: left;padding-left: 25px;background-repeat: no-repeat;background-position-y: 3px;
+      }
+      .lienhefooter1 li:nth-child(6){
+        background: url(https://bocatvangtravel.com.vn/Uploads/images/BaiViet/icon_mail.png);
+        background-position: left;padding-left: 25px;background-repeat: no-repeat;background-position-y: 3px;
+      }
+      .lienhefooter li:nth-child(7){
+        background: url(https://bocatvangtravel.com.vn/Uploads/images/BaiViet/icon_web.png);
+        background-position: left;padding-left: 25px;background-repeat: no-repeat;background-position-y: 3px;
+      }
+      .lienhefooter1{float: left;padding: 0 1%;}
+      .footerfixed{width: 100%;
+        padding: 0.5% 0;
+        float: left;background-color: #e6e6e6;
+        border-top: 1px solid #007cc4;padding-bottom: 0;position: fixed;
+        bottom: 0;left: 0%;z-index: 100;}
+        .footerfixed p{float: left;
+          padding: 2% 1%;font-size: 15px;
+          color: #4c4c4c;margin: auto;}
+      .hinh_footerfixed{float: left;
+        padding: 0% 1%;}
+      .hinh_footerfixed img{}
+      .menufooterfixed{float: left;
+        padding: 2% 1%;margin: auto;}
+      .menufooterfixed ul{}
+      .menufooterfixed li{ cursor: pointer;   color: #007cc4;
+        font-size: 13px;
+        float: left;
+        padding: 0px 11px;transition: 1s;}
+        .menufooterfixed li:hover{    color: #efa300;}
+      .tructuyen{float: right;
+        padding: 0% 1%;    width: 16%;margin: auto;}
+      .tructuyen li{float: left;width: 100%;}
+      .tructuyen li p{margin-right: 5px;}
+      .tructuyen li span{    color: #007cc4;
+        font-size: 15px;
+        font-weight: 700;}
+        .sticky {
+          position: fixed;
+          top: 0;
+          width: 100%;
+          left: 0;
+          background: #007cc4;
+        }
+        .navbar {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          transition: 0.3s ease;
+        }
+        .navbar.sticky {
+          box-shadow: 1px 2px 18px rgba(0, 0, 0, 0.5);    background: #5ebf22;
+        }
+        .logofixed{float: right;display: none;}
+        .sticky .logofixed{display: block;}
